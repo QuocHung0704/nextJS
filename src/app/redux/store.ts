@@ -1,7 +1,7 @@
 
 
 import { configureStore } from "@reduxjs/toolkit"
-import { petReducer, plantReducer } from "./slices"
+import { petReducer, plantReducer } from "./slice"
 
 export const store = configureStore({
     reducer: {
